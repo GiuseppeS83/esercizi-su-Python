@@ -1,15 +1,10 @@
-# Calcolatrice della Somma in Python
+# Hello World in Python
 
-Questo è un semplice programma in Python che chiede all'utente di inserire due numeri interi e ne calcola la somma.
+Un semplice programma "Hello World" scritto in Python.
 
 ## 📋 Descrizione
 
-Il programma esegue i seguenti passaggi:
-1. Richiede all'utente di inserire un primo numero.
-2. Richiede all'utente di inserire un secondo numero.
-3. Converte gli input da testo a numeri interi (`int`).
-4. Calcola la somma dei due numeri.
-5. Stampa il risultato a schermo.
+Questo programma rappresenta il classico esempio iniziale per chi comincia a programmare. Utilizza la funzione integrata `print()` di Python per mostrare un messaggio di testo a schermo.
 
 ## 🚀 Come eseguire il programma
 
@@ -17,28 +12,23 @@ Il programma esegue i seguenti passaggi:
 Assicurati di aver installato **Python 3** sul tuo computer.
 
 ### Esecuzione
-1. Salva il codice in un file, ad esempio `somma.py`.
+1. Salva il codice in un file, ad esempio `hello.py`.
 2. Apri il terminale o il prompt dei comandi.
 3. Naviga nella cartella in cui hai salvato il file.
 4. Esegui il comando:
 
 ```bash
-python somma.py
+python hello.py
 ```
 
 ## 💻 Codice Sorgente
 
 ```python
-numero1 = int(input("Inserisci il primo numero:"))
-numero2 = int(input("Inserisci il secondo numero:"))
-somma = numero1 + numero2
-print(" La somma dei due numeri è:", somma)
+print("Hello World")
 ```
 
-## 📝 Esempio di Utilizzo
+## 📝 Output Atteso
 
 ```text
-Inserisci il primo numero: 5
-Inserisci il secondo numero: 7
- La somma dei due numeri è: 12
+Hello World
 ```
